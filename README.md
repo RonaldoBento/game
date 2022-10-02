@@ -3,9 +3,7 @@
 
 <br><img src="./img/logo-bento-projeto.png" alt="logo bento-projeto no formato png"><br>
 
-<br><p>Bem-vindo(a) ao jogo Educacional denominado <strong>Yuru Yuri Perfect Math Plus.</strong>
-
-Como você já sabe, a Matemática é uma parte importante de sua vida. Ela está presente em todos os lugares, inclusive nos Games. Jogo desenvolvido com especificações ao complemento do estudo da Matemática em sua casa, no laser, abordando o Ensino Fundamental do 6° ao 9° ano. Yuru Yuri Perfect Math promovendo conteúdo para o 6° e 7° ano e Yuru Yuri Perfect Math Plus promovendo conteúdo para o 8° e 9° ano.
+<br><p>Bem-vindo(a) ao jogo Educacional denominado <strong>Yuru Yuri Perfect Math Plus.</strong> Como você já sabe, a Matemática é uma parte importante de sua vida. Ela está presente em todos os lugares, inclusive nos Games. Jogo desenvolvido com especificações ao complemento do estudo da Matemática em sua casa, no laser, abordando o Ensino Fundamental do 6° ao 9° ano. Yuru Yuri Perfect Math promovendo conteúdo para o 6° e 7° ano e Yuru Yuri Perfect Math Plus promovendo conteúdo para o 8° e 9° ano.
 
 Gostaria muito de que aceitasse este convite para testar o jogo, participando ativamente de todos os desafios propostos. Vamos Começar?</p>
 
@@ -63,7 +61,7 @@ Gostaria muito de que aceitasse este convite para testar o jogo, participando at
 <p>O RPG Maker permite que os usuários criem seus próprios jogos de RPG e com algumas mudanças no sistema pode criar até outros tipos de jogos. Utiliza a linguagem de Programacão:
 RGSS (Ruby Game Scripting System) uses the object-oriented scripting language Ruby to develop 2D games for the Windows® platform.</p>
 
-## Exemplo de Script:
+## Exemplos de Scripts:
 ```Ruby
 #==============================================================================
 # ** Window_SaveFile
@@ -143,5 +141,59 @@ class Window_SaveFile < Window_Base
   end
 end
 ```
+***
+
+```Ruby
+#==============================================================================
+# ** Game_Temp
+#------------------------------------------------------------------------------
+#  Esta classe gerencia dados temporários que não são salvos pelo jogo.
+# A instância desta classe é referenciada por $game_temp.
+#==============================================================================
+
+class Game_Temp
+  #--------------------------------------------------------------------------
+  # * Variáveis públicas
+  #--------------------------------------------------------------------------
+  attr_reader   :common_event_id          # ID do evendo commun
+  attr_accessor :fade_type                # Tipo de efeito de fade
+  #--------------------------------------------------------------------------
+  # * Inicialização do objeto
+  #--------------------------------------------------------------------------
+  def initialize
+    @common_event_id = 0
+    @fade_type = 0
+  end
+  #--------------------------------------------------------------------------
+  # * Definição de evento comum a ser iniciado
+  #--------------------------------------------------------------------------
+  def reserve_common_event(common_event_id)
+    @common_event_id = common_event_id
+  end
+  #--------------------------------------------------------------------------
+  # * Limpeza do evento comum
+  #--------------------------------------------------------------------------
+  def clear_common_event
+    @common_event_id = 0
+  end
+  #--------------------------------------------------------------------------
+  # * Definição de chamada de eventos comuns
+  #--------------------------------------------------------------------------
+  def common_event_reserved?
+    @common_event_id > 0
+  end
+  #--------------------------------------------------------------------------
+  # * Definição de evento comun
+  #--------------------------------------------------------------------------
+  def reserved_common_event
+    $data_common_events[@common_event_id]
+  end
+end
+```
+## IMPORTANTE:
+
+ [![NPM](https://img.shields.io/npm/l/react)](https://github.com/RonaldoBento/game/blob/main/LICENSE) 
+
+Você tem todo o direito de usar esse material para seu próprio aprendizado. Espero que seja útil o conteúdo disponibilizado. Para rodar o jogo no seu computador (Windows) ou em outro dispositivo é preciso ter instalado o Programa RPG Maker VX Ace. 
 
 

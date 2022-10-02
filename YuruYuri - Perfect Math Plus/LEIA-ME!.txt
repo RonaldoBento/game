@@ -1,0 +1,102 @@
+ Título Original: YuruYuri - Perfect Math Plus
+=============================================================================================================================
+ Autor: Ronaldo Bento
+ Gênero: Educacional/puzzles/minigames/Quiz
+ Engine: RPG Maker VX Ace
+ Faixa Etária: Livre para todas as idades.
+ Precisa de RTP? Não.
+
+ Este jogo foi desenvolvido por Ronaldo Rodrigues Bento, por meio da
+ engine RPG Maker VX Ace e não possui fins comerciais.
+
+ Todos os materiais provenientes de terceiros
+ utilizados neste projeto possuem a prévia 
+ autorização de seus autores, seja de maneira 
+ tácita ou expressa para uso.
+
+================================================================================================================================
+ RGSS (Ruby Game Scripting System) uses the object-oriented scripting language Ruby to develop 2D games for the Windows® platform.
+
+ +++ MOG - YuruYuri - Perfect Math (1.0) +++
+
+ Characters & Scenario
+ from Yuru Yuri(????)
+ http://yuruyuri.com/
+
+ Music By ?????-????-
+ http://www.rengoku-teien.com/
+
+ Voices
+ from The King of Fighters (?·???·??·??????)
+ http://kofaniv.snkplaymore.co.jp/
+
+
+ RGSS3 & Layout
+ By Moghunter 
+ http://www.atelier-rgss.com/
+
+===============================================================================================================
+
+
+                     AGRADECIMENTOS:
+
+
+ - Ao Kevin Macleod (incompetech.com), pelas músicas
+ "Monkeys Spinning Monkeys" e "Mariachi Snooze".
+
+ - Ao pan14, pelo fornecimento do efeito sonoro 
+ "Tone Beep".
+
+RMN Music Pack is a collection of videogame music composed by members of http://www.rpgmaker.net for anyone and 
+everyone to use in their non-commercial videogame projects. RMN Music Pack was created in three-months timeframe 
+as an event organized by 800 M.P.H. and NewBlack with assistance of Kenton Anderson. 
+
+You can find the full list of submissions at http://rpgmaker.net/events/rmn_music_pack
+
+
+Special thanks to everyone partaking the event, http://www.rpgmakerweb.com/, Clyve, Liberty, Archeia and Jonnie19
+
+And all the attending artists: Jasprelao, Jeremiah "McTricky" George, Jude, Gamesfreak13563, Tarranon, Cornflake, 
+Xcalnarok, Lana42, Kunsel, Subaru, NathanGDay, Snowy Fox, ReclaimedGlory, Apoc, hyde9318 and 800 M.P.H.
+
+Album cover artwork has been made by http://yaichino.deviantart.com/ and CD artwork by http://23hauntsme.deviantart.com/
+
+RMN Music Pack is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.
+
+=================================================================================================================
+
+ - Ao Zeus81, pelo script "Fullscreen ++".
+
+ - Ao Mog Hunter - Ayesha Title Screen (v1.5) +++
+ - Ao Mog hunter - MOG - Title Multilogo - [Stand-Alone Series] (V1.1) +++
+ - Ao Mog Hunter - MOG - Anti Animation Lag (v1.1) +++
+ - Ao Mog Hunter - MOG - Scene Credits (v1.1) +++
+ - Ao Mog Hunter - MOG - MELODIA (v1.1) +++
+ - Ao Mog Hunter - MOG - YuruYuri - Perfect Math (1.0) +++ 
+ - Ao Mog Hunter - MOG - Debug Mode + Ver 1.7 (For Scripters) +++
+ - Ao Raizen, pelo script "Lune Ultimate Anti-Lag".
+ - Ao Raizen, pelo Sliding Puzzle Game
+ - E claro, a todos que jogaram!
+
+===================================================================================================================
+                
+  AGRADECIMENTO ESPECIAL:
+ 
+ Baseado no jogo: Moge Quiz
+ Autor: HIT
+
+====================================================================================================================
+ Anime: Yuru Yuri
+
+ Sinopse: YuruYuri (Yuri leve) é um anime de comédia de estudantes sobre uma turma de garotas aprontando o que 
+ quiserem no clube da diversão situado onde ficava o antigo e desativado clube do chá. O anime mostra elas vivendo
+ momentos divertidos com suas atividades.
+
+Gênero: Comédia, Escolar, Shoujo Ai
+Categoria: Série TV.
+Temporadas: 3 temporadas
+Estúdio: TYO Animations Inc.
+Produtores: Dogakobo, Pony Canyon, DAX Production.
+Episódios: 12.
+
+
