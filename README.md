@@ -46,6 +46,7 @@ Gostaria muito de que aceitasse este convite para testar o jogo, participando at
     <li><strong>Testadores:</strong> Romeo Charlie Lima/Bruna/Junior de Sousa/Gustavo M. Queiróz</li>
     <li><strong>Início do projeto:</strong> 30/09/2017</li>
     <li><strong>Lançamento do projeto:</strong> 03/11/2017</li>
+    <li><strong>Tamanho:</strong> 66MB</li>
     <li><strong>Duração do jogo:</strong> aproximadamente 40 minutos</li>
 </ul>
 
